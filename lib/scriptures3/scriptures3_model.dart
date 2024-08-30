@@ -11,7 +11,5 @@ class Scriptures3Model extends FlutterFlowModel<Scriptures3Widget> {
   void initState(BuildContext context) {}
 
   @override
-  void dispose() {
-    unfocusNode.dispose();
-  }
+  void dispose() {}
 }

@@ -11,7 +11,5 @@ class Day11Model extends FlutterFlowModel<Day11Widget> {
   void initState(BuildContext context) {}
 
   @override
-  void dispose() {
-    unfocusNode.dispose();
-  }
+  void dispose() {}
 }

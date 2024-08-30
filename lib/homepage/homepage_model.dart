@@ -11,7 +11,5 @@ class HomepageModel extends FlutterFlowModel<HomepageWidget> {
   void initState(BuildContext context) {}
 
   @override
-  void dispose() {
-    unfocusNode.dispose();
-  }
+  void dispose() {}
 }

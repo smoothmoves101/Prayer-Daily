@@ -11,7 +11,5 @@ class Day28Model extends FlutterFlowModel<Day28Widget> {
   void initState(BuildContext context) {}
 
   @override
-  void dispose() {
-    unfocusNode.dispose();
-  }
+  void dispose() {}
 }

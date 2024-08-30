@@ -11,7 +11,5 @@ class GettingStartedModel extends FlutterFlowModel<GettingStartedWidget> {
   void initState(BuildContext context) {}
 
   @override
-  void dispose() {
-    unfocusNode.dispose();
-  }
+  void dispose() {}
 }
